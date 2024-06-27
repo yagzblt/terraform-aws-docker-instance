@@ -13,7 +13,7 @@ provider "aws" {
   region = "us-east-1"}
 
 module "docker_instance" {
-    source = "yagzblt/docker-instance/aws"
-    key_name = "newkey" }
+  source = "yagzblt/docker-instance/aws"
+  key_name = "newkey" }
 ```
 ---
